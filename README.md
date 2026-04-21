@@ -11,17 +11,17 @@ Pre-configured with ESLint, Prettier, Husky, and lint-staged.
 
 ## Setup
 
-```bash
-    npm install
+```npm
+npm install
 ```
 
 ## start the development server
-```bash
-    npm run dev    
+```npm
+npm run dev    
 ```
 # create a production build 
-```bash
-    npm run build
+```npm
+npm run build
 ```    
 
 Use `npm run preview` to locally preview the production build.
