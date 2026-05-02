@@ -38,8 +38,10 @@
 		"typescript-eslint": "^8.58.1",
 		"vite": "^8.0.7"
 	},
-	"*.{svelte,ts,js,json,css,md,html}": [
-		"prettier --write",
-		"eslint --fix"
-	]
+	"lint-staged":{
+		"*.{svelte,ts,js,json,css,md,html}": [
+			"prettier --write",
+			"eslint --fix"
+		]	
+	}
 }
